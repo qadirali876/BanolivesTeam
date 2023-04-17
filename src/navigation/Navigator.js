@@ -71,9 +71,9 @@ import LuckDraw from '../screens//home_screens/LuckyDraw';
 import InamGhar from '../screens/myTasks/InamGhar';
 import SearchView from '../screens/reuseable_Component/SearchView';
 import WealthLevelExplaination from '../screens/levelExplanation/WealthLevelExplanation';
-import HomePage from '../screens/Agora/HomePage';
-import HostPage from '../screens/Agora/HostPage';
-import AudiencePage from '../screens/Agora/AudiencePage';
+// import HomePage from '../screens/Agora/HomePage';
+// import HostPage from '../screens/Agora/HostPage';
+// import AudiencePage from '../screens/Agora/AudiencePage';
 import WithdrawBind2 from '../screens/home_screens/WithDrawBind2';
 import WithdrawBind from '../screens/home_screens/WithdrawBind';
 import Exchange from '../screens/withdrawScreens/Exchange';
@@ -81,7 +81,7 @@ import Mylevel from '../screens/home_screens/Mylevel';
 import Pending from '../screens/home_screens/Pending';
 import Help from '../screens/reuseable_Component/Help';
 import ChatTest from '../screens/extraWork/ChatTest';
-import Rules from '../screens/FruitLoopGame/Components/rules';
+// import Rules from '../screens/FruitLoopGame/Components/rules';
 // import DeepAr from '../screens/Agora/DeepAR';
 const Stack = createNativeStackNavigator();
 
@@ -127,7 +127,7 @@ function HomeNavigations() {
       <Stack.Screen name="UserProfile" component={UserProfile} />
       <Stack.Screen name="OtherUserProfile" component={OtherUserProfile} />
       <Stack.Screen name="ProfileModalStyle" component={ProfileModalStyle} />
-      <Stack.Screen name="Homepage" component={HomePage} />
+      {/* <Stack.Screen name="Homepage" component={HomePage} /> */}
       <Stack.Screen name="WithdrawBind2" component={WithdrawBind2} />
       <Stack.Screen name="WithdrawBind" component={WithdrawBind} />
       <Stack.Screen name="MyLevel" component={Mylevel} />
@@ -135,16 +135,19 @@ function HomeNavigations() {
       {/* <Stack.Screen name="DeepAr" component={DeepAr} /> */}
 
 
-      <Stack.Screen
+      {/* <Stack.Screen
         options={{headerShown: false}}
         name="HostPage"
         component={HostPage}
-      />
-      <Stack.Screen
+      /> */}
+      {/* <Stack.Screen
         options={{headerShown: false}}
         name="AudiencePage"
         component={AudiencePage}
-      />
+      /> */}
+
+
+
       {/* <Stack.Screen
         name="TalentLevelExplaination"
         component={TalentLevelExplaination}
@@ -181,7 +184,7 @@ function HomeNavigations() {
       <Stack.Screen name="TopupDetails" component={TopupDetails} />
       <Stack.Screen name="TopupAgent" component={TopupAgent} />
       <Stack.Screen name = "ChatTest" component={ChatTest}/>
-      <Stack.Screen name = "rules" component={Rules}/>
+      {/* <Stack.Screen name = "rules" component={Rules}/> */}
       {/* Auth Screen */}
     </Stack.Navigator>
   );

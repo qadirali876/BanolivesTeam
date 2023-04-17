@@ -51,7 +51,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { firebaseBlockUser } from '../../Services/Firebase';
 import { Button } from 'react-native-paper';
 import RbSheetComponent from '../reuseable_Component/RbSheetComponent';
-import FruitLoop from '../FruitLoopGame/FruitLoop/FruitLoop';
+// import FruitLoop from '../FruitLoopGame/FruitLoop/FruitLoop';
 
 const data5 = [
   {
@@ -220,7 +220,7 @@ const Home = ({navigation}) => {
   const dispatch = useDispatch();
   const [banners, setBanners] = useState(null)
   const [bannersLoading, setBannersLoading] = useState(true)
-  const fruitLoopGameRef = useRef();
+  // const fruitLoopGameRef = useRef();
   const [tokenGene, setTokenGene] = useState([])
   async function requestUserPermission() {
     const authStatus = await messaging().requestPermission();
@@ -936,12 +936,12 @@ const Home = ({navigation}) => {
               )}
             />
           </View>
-          <RbSheetComponent
+          {/* <RbSheetComponent
             view={<FruitLoop onCrossPress={() => fruitLoopGameRef.current.close()}  />}
             refUse={fruitLoopGameRef}
             close={false}
             height={heightPercentageToDP(50)}
-          />
+          /> */}
 
           {/* Post */}
         </ScrollView>

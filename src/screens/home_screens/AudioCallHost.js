@@ -76,7 +76,7 @@ import AudioPerson from '../reuseable_Component/AudioPerson';
 import { useKeepAwake } from '@sayem314/react-native-keep-awake';
 import ProfileModalStyles from '../reuseable_Component/ProfileModalStyle';
 import FansRanking from '../reuseable_Component/FansRanking';
-import UserList from '../Agora/components/UserList';
+// import UserList from '../Agora/components/UserList';
 import { Keyboard } from 'react-native';
 import { shareToWhatsApp } from '../reuseable_Component/SocialShare';
 import Simple from 'react-native-vector-icons/SimpleLineIcons';
@@ -84,7 +84,7 @@ import AnimatedProfileDp from '../reuseable_Component/AnimatedProfileDP';
 import SeatsLogic from '../reuseable_Component/SeatsLogic';
 import { Alert } from 'react-native';
 import { BackHandler } from 'react-native';
-import MessageSheet from '../Agora/components/MessageSheet';
+// import MessageSheet from '../Agora/components/MessageSheet';
 
 
 export default AudioCallHost = (props) => {

@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "1035269178902",
+    "firebase_url": "https://banolivedb-default-rtdb.firebaseio.com",
+    "project_id": "banolivedb",
+    "storage_bucket": "banolivedb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035269178902:android:54d0c3d61eb87fcb025737",
+        "android_client_info": {
+          "package_name": "com.bano.live"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035269178902-dou72t36u6pnmqsf4a4f0024s6bfi527.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bano.live",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "1035269178902-t068qpbv0c0j1jsfpp9evbturt3ue167.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bano.live",
+            "certificate_hash": "e63ee3b46afae207a0d0321694a570be0728ca55"
+          }
+        },
+        {
+          "client_id": "1035269178902-vl3a4t1lsbkk9redkdvqufc4mpcl4pcn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bano.live",
+            "certificate_hash": "7005a572a5219f41db0c9e06d2581b684efe764e"
+          }
+        },
+        {
+          "client_id": "1035269178902-u6cb870j3qpkusg51v8vnc6uimaocndi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDnY4echif_2aiaJ4nguMLItENyCZrgbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035269178902-f0vqof5us59qhjl668g95c40gcif6rbv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

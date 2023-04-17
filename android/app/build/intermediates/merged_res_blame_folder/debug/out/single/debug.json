@@ -1,0 +1,1162 @@
+[
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_event_bonusbroadcast.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_event_bonusbroadcast.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_luckydraw_check.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_luckydraw_check.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-hdpi_node_modules_reactnativecalendars_src_img_up.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-hdpi\\node_modules_reactnativecalendars_src_img_up.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_records_kiss.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_records_kiss.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_event_starbonus.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_event_starbonus.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_record1.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_record1.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_node_modules_reactnativeinstastory_src_assets_images_no_avatar.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\node_modules_reactnativeinstastory_src_assets_images_no_avatar.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_invites.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_invites.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_wealthclass_kingnameplate.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_wealthclass_kingnameplate.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_home_posters_records.jpeg.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_home_posters_records.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_coming01.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_coming01.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_paypal.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_paypal.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_mytasks_ferrari.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_mytasks_ferrari.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_event_bonusbag.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_event_bonusbag.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_screens_fruitloopgame_images_1k.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_screens_fruitloopgame_images_1k.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_dp.jpg.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_dp.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_vip.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_vip.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_levelexplaination_polygongreen.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_levelexplaination_polygongreen.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_wealthclass_gembadge.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_wealthclass_gembadge.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_myinvites_messenger.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_myinvites_messenger.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_whatsapp.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_whatsapp.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_uevent1122.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_uevent1122.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_home_posters_lucky.jpeg.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_home_posters_lucky.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_twitter.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_twitter.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_records_numbersgroup.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_records_numbersgroup.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_roar.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_roar.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_wealthclass_crown.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_wealthclass_crown.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_logo.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_home_posters_mybag.jpeg.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_home_posters_mybag.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_join.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_join.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_room.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_room.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_banoreels_background.jpeg.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_banoreels_background.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_beana.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_beana.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\mipmap-xxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\mipmap-xxhdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_coming002.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_coming002.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_mytasks_coin.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_mytasks_coin.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_coin.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_coin.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_msg.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_msg.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_wealthclass_kingframe.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_wealthclass_kingframe.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_spotwatch.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_spotwatch.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_streammike.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_streammike.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\mipmap-xhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\mipmap-xhdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_newprofilebg.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_newprofilebg.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_coina.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_coina.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_banner1122.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_banner1122.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_wealthclass_kingbadge.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_wealthclass_kingbadge.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_story.jpg.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_story.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_mybadge.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_mybadge.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_node_modules_reactnativecountrypickermodal_lib_assets_images_close.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\node_modules_reactnativecountrypickermodal_lib_assets_images_close.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_fb.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_fb.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_mytasks_star3.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_mytasks_star3.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_mytasks_dragon.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_mytasks_dragon.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_mybadge_rocket.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_mybadge_rocket.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_myedit.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_myedit.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_event_rewardbg1.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_event_rewardbg1.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-hdpi\\node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_levelexplaination_polygonimages.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_levelexplaination_polygonimages.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_wealthclass_goldbadge.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_wealthclass_goldbadge.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_profile.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_wealthclass_gemframe.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_wealthclass_gemframe.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_screens_fruitloopgame_images_topup.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_screens_fruitloopgame_images_topup.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_records_story.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_records_story.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\mipmap-mdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\mipmap-mdpi\\ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_mylevel_1.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_mylevel_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_wealthclass_line.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_wealthclass_line.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_record3.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_record3.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_bg.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_myearning.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_myearning.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-xxxhdpi_node_modules_reactnativecalendars_src_img_up.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-xxxhdpi\\node_modules_reactnativecalendars_src_img_up.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-xhdpi_node_modules_reactnativecalendars_src_calendar_img_previous.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-xhdpi\\node_modules_reactnativecalendars_src_calendar_img_previous.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_wealthclass_chatbubblepic.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_wealthclass_chatbubblepic.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_records_lavish.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_records_lavish.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_vk.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_vk.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_fruit.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_fruit.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_img1.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_img1.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-xxhdpi_node_modules_reactnativecalendars_src_calendar_img_next.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-xxhdpi\\node_modules_reactnativecalendars_src_calendar_img_next.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-xxxhdpi_node_modules_reactnativecalendars_src_img_down.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-xxxhdpi\\node_modules_reactnativecalendars_src_img_down.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_pheonix.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_pheonix.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_records_frame2.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_records_frame2.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_banolivepicture.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_banolivepicture.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_man.jpg.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_man.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_comingsoon.jpeg.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_comingsoon.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_mytasks_star1.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_mytasks_star1.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_profile_msg.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_profile_msg.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_wealthclass_goldnameplate.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_wealthclass_goldnameplate.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_mytasks_star8.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_mytasks_star8.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_ferr.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_ferr.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_levelexplaination_polygonorange.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_levelexplaination_polygonorange.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_poster2.jpg.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_poster2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_screens_fruitloopgame_images_strawberry.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_screens_fruitloopgame_images_strawberry.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_wealthclass_bronzebadge.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_wealthclass_bronzebadge.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_newprofilebean.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_newprofilebean.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_mybadge_plane.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_mybadge_plane.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_car.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_car.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_feventstxt.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_feventstxt.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_node_modules_reactnativecountrypickermodal_lib_assets_images_closeios.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\node_modules_reactnativecountrypickermodal_lib_assets_images_closeios.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_bentley.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_bentley.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_beans.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_beans.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-xhdpi\\node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_persian_cat_2_.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_persian_cat_2_.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_wealthclass_gemnameplate.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_wealthclass_gemnameplate.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_topup1.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_topup1.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_mytasks_confetti.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_mytasks_confetti.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\mipmap-hdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\mipmap-hdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_coming1122.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_coming1122.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_wealthclass_crownnameplate.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_wealthclass_crownnameplate.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_motorcycle.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_motorcycle.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\raw_src_screens_home_screens_vid.mp4.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\raw\\src_screens_home_screens_vid.mp4"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_record2.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_record2.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_mysetting.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_mysetting.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_home_posters_event.jpeg.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_home_posters_event.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_wealthclass_crystalbadge.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_wealthclass_crystalbadge.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_screens_fruitloopgame_images_bg3.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_screens_fruitloopgame_images_bg3.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_myinvites_more.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_myinvites_more.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_rectangle.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_rectangle.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_mylevel.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_mylevel.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_luckydraw_frame.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_luckydraw_frame.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_earnings.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_earnings.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_wealthclass_silver.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_wealthclass_silver.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_streamevent.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_streamevent.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_wallpaper.jpg.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_wallpaper.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_home_posters_bages.jpeg.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_home_posters_bages.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_luckydraw_luckytxt.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_luckydraw_luckytxt.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_coverpic.jpg.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_coverpic.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_luckydraw_dailytxt.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_luckydraw_dailytxt.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_node_modules_reactnativealertnotification_src_assets_success.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\node_modules_reactnativealertnotification_src_assets_success.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_banner.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_coming001.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_coming001.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-hdpi_node_modules_reactnativecalendars_src_img_down.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-hdpi\\node_modules_reactnativecalendars_src_img_down.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_wealthclass_crownframe.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_wealthclass_crownframe.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_settings.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_settings.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_screens_fruitloopgame_images_10k.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_screens_fruitloopgame_images_10k.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable_rn_edit_text_material.xml.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable\\rn_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_wealthclass_crystalnameplate.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_wealthclass_crystalnameplate.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_records_frame3.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_records_frame3.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_bgspot.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_bgspot.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_4.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_home_posters_store.jpeg.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_home_posters_store.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_event1122.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_event1122.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_screens_fruitloopgame_images_winningpin.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_screens_fruitloopgame_images_winningpin.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_speedboat.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_speedboat.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-xxxhdpi_node_modules_reactnativecalendars_src_calendar_img_next.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-xxxhdpi\\node_modules_reactnativecalendars_src_calendar_img_next.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_mybag_vip.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_mybag_vip.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_event_detailsbg.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_event_detailsbg.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_5.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_5.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_streamluckydraw.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_streamluckydraw.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_mybag_bag.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_mybag_bag.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_screens_fruitloopgame_images_fruitspinner.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_screens_fruitloopgame_images_fruitspinner.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-xhdpi_node_modules_reactnativecalendars_src_img_up.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-xhdpi\\node_modules_reactnativecalendars_src_img_up.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-xxhdpi_node_modules_reactnativecalendars_src_img_up.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-xxhdpi\\node_modules_reactnativecalendars_src_img_up.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_screens_fruitloopgame_images_vector.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_screens_fruitloopgame_images_vector.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_screens_fruitloopgame_images_bg1.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_screens_fruitloopgame_images_bg1.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_groupa.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_groupa.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_flipcam.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_flipcam.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_node_modules_reactnativepaper_src_assets_backchevron.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\node_modules_reactnativepaper_src_assets_backchevron.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_topupagent_topupframe.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_topupagent_topupframe.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_screens_fruitloopgame_images_orange.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_screens_fruitloopgame_images_orange.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_myinvites_facebook.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_myinvites_facebook.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_records_profile.jpg.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_records_profile.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_mybag.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_mybag.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_screens_fruitloopgame_images_beans.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_screens_fruitloopgame_images_beans.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_topupagent_topupd.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_topupagent_topupd.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_teen.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_teen.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_easypaisa.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_easypaisa.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_coinbag.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_coinbag.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_mylevel_skyblue.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_mylevel_skyblue.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_6.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_6.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_banner2.jpg.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_banner2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\mipmap-mdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\mipmap-mdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_myinvites_copylink.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_myinvites_copylink.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_profile_gift.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_profile_gift.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_wealthclass_profile.jpg.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_wealthclass_profile.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_myinvites.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_myinvites.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_myhelp.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_myhelp.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_luckydraw_coinbox.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_luckydraw_coinbox.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_taskicon.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_taskicon.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\mipmap-xhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\mipmap-xhdpi\\ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_image36.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_image36.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_wealthclass_bronzenameplate.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_wealthclass_bronzenameplate.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_searchrectangle.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_searchrectangle.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_earning1.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_earning1.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_topupagent_topupbg.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_topupagent_topupbg.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_earning.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_earning.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_faq.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_faq.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_payment.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_payment.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-hdpi_node_modules_reactnativecalendars_src_calendar_img_previous.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-hdpi\\node_modules_reactnativecalendars_src_calendar_img_previous.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\raw_src_assets_videos_3.mp4.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\raw\\src_assets_videos_3.mp4"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_luckydraw_circle.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_luckydraw_circle.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_group.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_group.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_mystore.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_mystore.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_event_eventbg.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_event_eventbg.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_mybadge_rocketboy.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_mybadge_rocketboy.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_withdrawvector.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_withdrawvector.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_recordsbg.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_recordsbg.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_newprofilecoin.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_newprofilecoin.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_myticket.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_myticket.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\mipmap-hdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\mipmap-hdpi\\ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_wealthclass_banner.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_wealthclass_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_wealthclass_nameplate.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_wealthclass_nameplate.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_badge.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_badge.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_screens_fruitloopgame_images_bg2.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_screens_fruitloopgame_images_bg2.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_records_stars.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_records_stars.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_1.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-xxxhdpi\\node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\mipmap-xxxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\mipmap-xxxhdpi\\ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_topup.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_topup.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_wealthclass_badge.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_wealthclass_badge.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_screens_fruitloopgame_images_background.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_screens_fruitloopgame_images_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_screens_fruitloopgame_images_100.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_screens_fruitloopgame_images_100.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_record4.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_record4.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_audi.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_audi.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_audioliveimgs_seat1.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_audioliveimgs_seat1.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_friends.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_friends.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_home_posters_soon.jpeg.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_home_posters_soon.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_mytasks_badge.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_mytasks_badge.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\mipmap-xxxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\mipmap-xxxhdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_luckydraw_shottxt.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_luckydraw_shottxt.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-xxhdpi_node_modules_reactnativecalendars_src_calendar_img_previous.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-xxhdpi\\node_modules_reactnativecalendars_src_calendar_img_previous.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_bean.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_bean.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_ceventtxt.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_ceventtxt.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_ticket.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_ticket.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_events.jpg.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_events.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_2.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_mytasks_vip.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_mytasks_vip.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_wealthclass_longpicc.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_wealthclass_longpicc.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_mytasks_luckydraw.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_mytasks_luckydraw.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_records_frame1.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_records_frame1.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_img2.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_img2.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_node_modules_reactnativecalendars_src_img_down.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\node_modules_reactnativecalendars_src_img_down.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_home_posters_battles.jpeg.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_home_posters_battles.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_profile_.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_profile_.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_event_eventrulebg.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_event_eventrulebg.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_screens_fruitloopgame_images_melon.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_screens_fruitloopgame_images_melon.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_insta.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_insta.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_google.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_google.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_joinspot.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_joinspot.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_node_modules_reactnativealertnotification_src_assets_warning.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\node_modules_reactnativealertnotification_src_assets_warning.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_event_rewardbg2.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_event_rewardbg2.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-xxxhdpi_node_modules_reactnativecalendars_src_calendar_img_previous.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-xxxhdpi\\node_modules_reactnativecalendars_src_calendar_img_previous.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_node_modules_reactnativealertnotification_src_assets_danger.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\node_modules_reactnativealertnotification_src_assets_danger.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_mylevel_red.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_mylevel_red.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_cross.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_cross.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_tasks.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_tasks.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_wealthclass_crownbadge.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_wealthclass_crownbadge.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-xhdpi_node_modules_reactnativecalendars_src_img_down.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-xhdpi\\node_modules_reactnativecalendars_src_img_down.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_node_modules_reactnativecalendars_src_img_up.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\node_modules_reactnativecalendars_src_img_up.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_help.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_help.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_carriage.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_carriage.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_myinvites_whatsapp.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_myinvites_whatsapp.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_myinvites_blsquad.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_myinvites_blsquad.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_screens_fruitloopgame_images_gameheader.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_screens_fruitloopgame_images_gameheader.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_mytasks_star5.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_mytasks_star5.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_bag.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_bag.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-xhdpi_node_modules_reactnativecalendars_src_calendar_img_next.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-xhdpi\\node_modules_reactnativecalendars_src_calendar_img_next.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_link.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_link.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-hdpi_node_modules_reactnativecalendars_src_calendar_img_next.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-hdpi\\node_modules_reactnativecalendars_src_calendar_img_next.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_wealthclass_live.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_wealthclass_live.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_img3.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_img3.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_history.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_history.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_screens_fruitloopgame_images_100k.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_screens_fruitloopgame_images_100k.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_7.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_7.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_myinvites_instagram.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_myinvites_instagram.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-xxhdpi_node_modules_reactnativecalendars_src_img_down.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-xxhdpi\\node_modules_reactnativecalendars_src_img_down.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_levelexplaination_levelwealth.jpg.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_levelexplaination_levelwealth.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_crown.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_crown.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_records_rocket.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_records_rocket.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\mipmap-xxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\mipmap-xxhdpi\\ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_records_aeroplane.jpg.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_records_aeroplane.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_party.jpg.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_party.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_streampk.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_streampk.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_greedy.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_greedy.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-xxhdpi\\node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_screens_fruitloopgame_images_rules.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_screens_fruitloopgame_images_rules.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_googletopup.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_googletopup.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_heavybike.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_heavybike.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_levelexplaination_talenwealth.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_levelexplaination_talenwealth.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_myinvites_blfriends.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_myinvites_blfriends.png"
+    },
+    {
+        "merged": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-merged_res-42:\\drawable-mdpi_src_assets_images_coming02.png.flat",
+        "source": "C:\\Users\\Z Book\\.gradle\\daemon\\7.5.1\\com.bano.live.app-main-44:\\drawable-mdpi\\src_assets_images_coming02.png"
+    }
+]

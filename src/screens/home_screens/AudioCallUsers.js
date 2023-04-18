@@ -69,7 +69,6 @@ import DeviceInfo from 'react-native-device-info';
 import AnimatedLottieView from 'lottie-react-native';
 import Call from '../home_screens/Call';
 import ProfileModalStyles from '../reuseable_Component/ProfileModalStyle';
-// import UserList from '../Agora/components/UserList';
 import FansRanking from '../reuseable_Component/FansRanking';
 import { shareToWhatsApp } from '../reuseable_Component/SocialShare';
 const deviceName = DeviceInfo.getDeviceName();
@@ -252,22 +251,17 @@ const AudioCallUsers = props => {
   const [camera, setCamera] = useState(true)
 
   const handleMicButton = () => {
-    if (agoraEngineRef.current.muteLocalAudioStream) {
-      setIsMicOn(!isMicOn)
-      { isMicOn ? agoraEngineRef.current.muteLocalAudioStream(true) : agoraEngineRef.current.muteLocalAudioStream(false) }
-    }
+   
     //console.log('mic', isMicOn)
   }
 
   const flipCameraHandle = () => {
     setFlipCamera(!flipCamera)
-    agoraEngineRef.current.switchCamera();
 
   }
 
   const handleCamera = () => {
     setCamera(!camera)
-    { camera ? agoraEngineRef.current.muteLocalVideoStream(true) : agoraEngineRef.current.muteLocalVideoStream(false) }
   }
 
   const firebaseFunc = () => {

@@ -60,13 +60,7 @@ import Simple from 'react-native-vector-icons/SimpleLineIcons';
 import { useKeepAwake } from '@sayem314/react-native-keep-awake';
 import SocialLinks from '../myInvites/SocialLinks';
 import RBSheet from 'react-native-raw-bottom-sheet';
-import {
-  ClientRoleType,
-  createAgoraRtcEngine,
-  IRtcEngine,
-  RtcSurfaceView,
-  ChannelProfileType,
-} from 'react-native-agora';
+
 
 import database from '@react-native-firebase/database';
 import { firebase } from '@react-native-firebase/database';
@@ -236,7 +230,6 @@ const AudioCallUsers = props => {
   const [uid, setUid] = useState(userData?.user?.id)
   const [channelName, setChannelName] = useState(route?.params?.liveID);
   const [userUid, setUserUid] = useState(null)
-  const agoraEngineRef = useRef(IRtcEngine);
   const [isJoined, setIsJoined] = useState(false); // Indicates if the local user has joined the channel
   const [isHost, setIsHost] = useState(route?.params?.isHost); // Client role
   const [remoteUid, setRemoteUid] = useState(0); // Uid of the remote user
@@ -339,302 +332,22 @@ const AudioCallUsers = props => {
 
 
   const generateToken = async () => {
-    //console.log("channel ", channelName, "uid ", typeof uid, uid)
-    const roleType = isHost ? "RolePublisher" : "RoleAttendee"
-    await fetch('https://www.banoLive.com/api/get-token', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        channelName: channelName,
-        uid: parseInt(uid),
-        role: "RoleAttendee",
-      }),
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        // console.log('Success:', typeof data?.token, data?.token);
-        { data && join(data?.token) }
-        return data
-      })
-      .catch((error) => {
-        console.error('Error:', error);
-        return false
-      });
-
+    
   }
 
 
   const join = async (tok) => {
-    // console.log("token from funct1", tok, channelName, typeof channelName)
-    //    await generateToken();
-    // console.log("tok", t, "data", JSON.stringify(data))
-    if (tok) {
-      if (isJoined) {
-        return;
-      }
-
-      try {
-        agoraEngineRef.current?.setChannelProfile(
-          ChannelProfileType.ChannelProfileLiveBroadcasting,
-        );
-
-        if (isHost) {
-          agoraEngineRef.current?.startPreview();
-          //console.log("inhost", tok)
-          agoraEngineRef.current?.joinChannel(tok, channelName, parseInt(uid), {
-            clientRoleType: ClientRoleType.ClientRoleBroadcaster
-          });
-        } else {
-          //console.log("hereeeeeeee")
-          agoraEngineRef.current?.joinChannel(tok, channelName, parseInt(uid), {
-            clientRoleType: ClientRoleType.ClientRoleAudience
-          });
-        }
-      } catch (e) {
-        console.log(e);
-      }
-    } else { console.log("no token", token) }
+   
   };
 
   const leave = () => {
-    try {
-      agoraEngineRef.current?.leaveChannel();
-      setRemoteUid(0);
-      setIsJoined(false);
-      showMessage('You left the channel');
-    } catch (e) {
-      console.log(e);
-    }
-
-  };
-
-  const agoraEvents = {
-    onJoinChannelSuccess: () => {
-      showMessage('Successfully joined the channel ' + channelName);
-      setIsJoined(true);
-      console.log("joined channel")
-    },
-    onUserJoined: (_connection, Uid) => {
-      setRemoteUid(Uid);
-    },
-    onUserOffline: (_connection, Uid) => {
-      setRemoteUid(0);
-      console.log("user offline", Uid)
-    },
-    onLocalVideoStateChanged: (remoteUid, state) => {
-      console.log("remoteuid", remoteUid, "state", state)
-
-    },
-  }
-
-  const callBackMethod = () => {
-
-    agoraEngineRef.current = createAgoraRtcEngine();
-    const agoraEngine = agoraEngineRef.current;
-    agoraEngine.registerEventHandler(agoraEvents);
-  }
-
-  useEffect(() => {
-    // Initialize Agora engine when the app starts
-    entryMessage()
-     addToUserList()
-     handle()
-    firebaseFunc()
-    onUserRemove()
-    coHostChildRemove()
-    checkGiftStatus()
-    getUserListFromRLDB()
-    return () => {
-      console.log("cleaned up");
-      agoraEngineRef.current.unregisterEventHandler(agoraEvents)
-      removeUserFromNode()
-      leave();
-      database().ref().off();
-    };
-  }, []);
-
-  const getUserListFromRLDB = () => {
-    //console.log("node3")
-    const onChildAdd = database()
-      .ref(`/userlistaudio/${channelName}`)
-      .on('child_added', snapshot => {
-        //console.log('userlistaudio ', snapshot.val());
-        setData(prev => [...prev, snapshot.val()])
-      });
-    // Stop listening for updates when no longer required
-    return () => {
-      database().ref(`/userlistaudio/${channelName}`).off('child_added', onChildAdd)
-    };
-  }
-
-  // filtering data from user list when any user left the channel checking real time through database (tes) is the id that user left the channel we are getting real time user remove in tes
-  useEffect(() => {
-    //console.log("setData==============================00")
-    { (tes != uid && data?.[0] && tes) && setData(data?.filter((item) => item?.id !== tes)) }
-  }, [tes])
-
-  const [data, setData] = useState([])
-  const [singleUserData, setSingleUserData] = useState()
-  const [list, setList] = useState(false);
-  const FlatListController = () => {
-    setList(!list);
-    //console.log('flatlist')
-  };
-  const [tes, setTes] = useState(null)
-  const onUserRemove = () => {
-    const onChildAdd = database()
-      .ref(`/userlistaudio/${channelName}`)
-      .on('child_removed', snapshot => {
-        //console.log('removeChild7 ', snapshot.val());
-        setTes(snapshot.val()?.id)
-      });
-
-  }
-
-  useEffect(() => {
-    // if hostleft the channel
-    { parseInt(channelName) === parseInt(tes) && leave() }
-    { (tes != uid && tes) && setData(data?.filter((item) => item?.id !== tes)) }
-    setTes(null)
-  }, [tes])
-
-  const removeUserFromNode = async () => {
-    database()
-      .ref(`/channelsaudio/${channelName}/${uid}`).remove()
-    //console.log("7")
-    await database()
-      .ref(`/userlistaudio/${channelName}/${uid}`)
-      .remove()
-      .then(() => console.log('successfully user removed from channel'));
-  }
-
-  const addToUserList = async () => {
-    // console.log("userdata", userData?.user)
-    await database()
-      .ref(`/userlistaudio/${channelName}/${uid}`)
-      .set({
-        id: uid,
-        full_name: userUpdatedData?.nick_name,
-        image: userUpdatedData?.image,
-        sender_level: userUpdatedData?.sender_level,
-        reciever_level: userUpdatedData?.reciever_level,
-        reciever_level_image: userUpdatedData?.reciever_level_image,
-        sender_level_image: userUpdatedData?.sender_level_image,
-        status: "0",
-        json_image: frameData?.[0]?.json_image
-      })
-      .then(() => console.log('Data set.'));
-  }
-
-
-  const handle = () => {
-
-    callBackMethod();
-    generateToken();
-  }
-
-  const firebaseDeleteNode = () => {
-    console.log()
-  }
-
-  const generateToken2 = async () => {
-    setIsCoHost(false)
-    leave()
-    //console.log("channel ", channelName, "uid ", typeof uid, uid, " remote uid", remoteUid)
-    const roleType = isHost ? "RolePublisher" : "RoleAttendee"
-    await fetch('https://www.banoLive.com/api/get-token', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        channelName: channelName,
-        uid: parseInt(uid),
-        role: "RolePublisher",
-      }),
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        setIsCoHost(true)
-        //console.log('Success:', typeof data?.token, data?.token);
-        { data && join2(data?.token) }
-        return data
-      })
-      .catch((error) => {
-        console.error('Error:', error);
-        return false
-      });
-
-  }
-
-  const join2 = async (tok) => {
-    //console.log("token from funct", tok, " ", isCoHost)
-    if (tok) {
-      try {
-        agoraEngineRef.current?.startPreview();
-        // setCh(true)
-        //console.log("inhost", tok)
-        agoraEngineRef.current?.joinChannel(tok, channelName, parseInt(uid), {
-          clientRoleType: ClientRoleType.ClientRoleBroadcaster
-        });
-        setJoinCall(false)
-        rldbCoHost()
-      } catch (e) {
-        console.log(e);
-      }
-    } else { console.log("no token", token) }
+   
   };
 
 
 
+  
 
-  const rldbCoHost = () => {
-    const currentDate = new Date();
-    const iddd = 2355;
-    //console.log("cohost95", uid, " ", deviceName)
-    // const newNodeKey =  database().ref().child(`/cohostaudio/${channelName}`).push().key;
-    try {
-      database().ref(`/cohostaudio/${channelName}/${uid}`)
-        .set({
-          id: uid,
-          uid: iddd,
-          full_name: userUpdatedData?.nick_name,
-          image: userUpdatedData?.image,
-
-          name: userData?.user?.nick_name,
-          sender_level: userUpdatedData?.sender_level,
-          reciever_level: userUpdatedData?.reciever_level,
-          date: currentDate.toString(),
-        });
-      //console.log("cohost95", uid, " ", iddd, " ", deviceName)
-
-
-    } catch (e) { console.log("errorrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr", e) }
-
-  }
-
-  const UpdateHostBeans = async () => {
-    const paramsBody = {
-      id: liveID,
-    };
-
-    try {
-      const res = await ApiCallToken({
-        params: userData.token,
-        paramsBody: paramsBody,
-        route: 'user/host-updated-data',
-        verb: 'POST',
-      });
-
-      console.warn(res.data.coins);
-      setupdatedCoins(res.data.coins);
-
-      // console.log('Getting HOST BEANS ===>>',res?.data?.coins)
-      // setHostUpdatedCoins(res?.data?.coins)
-    } catch (error) { }
-  };
 
   useFocusEffect(
     useCallback(() => {

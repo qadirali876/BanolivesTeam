@@ -61,13 +61,7 @@ import { Switch } from 'react-native-paper';
 
 import { ApiCallToken } from '../../Services/Apis';
 
-import {
-  ClientRoleType,
-  createAgoraRtcEngine,
-  IRtcEngine,
-  RtcSurfaceView,
-  ChannelProfileType,
-} from 'react-native-agora';
+
 import database from '@react-native-firebase/database';
 import { firebase } from '@react-native-firebase/database';
 import { ScrollView } from 'react-native-gesture-handler';
@@ -84,7 +78,6 @@ import AnimatedProfileDp from '../reuseable_Component/AnimatedProfileDP';
 import SeatsLogic from '../reuseable_Component/SeatsLogic';
 import { Alert } from 'react-native';
 import { BackHandler } from 'react-native';
-// import MessageSheet from '../Agora/components/MessageSheet';
 
 
 export default AudioCallHost = (props) => {
@@ -117,7 +110,6 @@ export default AudioCallHost = (props) => {
     console.log(isBuffer);
   };
   const refRBSheet = useRef();
-  const msgRef = useRef();
   const AllowCall = useRef();
   const refRBSheet1 = useRef();
   const refRBSheetOptions = useRef();
@@ -171,7 +163,6 @@ export default AudioCallHost = (props) => {
   const [channelName, setChannelName] = useState(route?.params?.channelName);
   const [userUid, setUserUid] = useState(null)
 
-  const agoraEngineRef = useRef(route?.params?.agoraEngineRe); // Agora engine instance
   const [isJoined, setIsJoined] = useState(false); // Indicates if the local user has joined the channel
   const [isHost, setIsHost] = useState(route?.params?.isHost); // Client role
   const [remoteUid, setRemoteUid] = useState(0); // Uid of the remote user
@@ -190,56 +181,7 @@ export default AudioCallHost = (props) => {
   const [callRequests, setCallRequests] = useState([])
   const checkDate = new Date()
 
-  useEffect(() => {
-    const onChildAdd = database()
-      .ref(`/channelsaudio/${channelName}`)
-      .on('child_added', snapshot => {
-        { snapshot.val() && firebaseFunc(snapshot.val()) }
-      });
-    // Stop listening for updates when no longer required
-    return () => {
-      database().ref(`/channelsaudio/${channelName}`).remove();
-      database().ref(`/giftsaudio/${channelName}`).remove();
-    }
-  }, [])
-
-  const setGiftsDBToFirebase = async (data) => {
-
-    await database().ref(`/giftsaudio/${channelName}`)
-      .set({
-        sendGifts: "true"
-      });
-  }
-
-  useEffect(() => {
-    const onChildAdd = database()
-      .ref(`/commentsaudio/${channelName}`)
-      .on('child_added', snapshot => {
-        // console.log('new message node:  ', snapshot.val());
-        checkfun(snapshot.val())
-      });
-
-    // Stop listening for updates when no longer required
-    return () => {
-      database().ref(`/commentsaudio/${channelName}`).off('child_added', onChildAdd)
-      deleteMessageNode()
-      //setMessages([])
-    };
-  }, [])
-
-
-  useEffect(() => {
-    // console.log("===========================================================<")
-    database()
-      .ref(`/cohostaudio/${channelName}`)
-      .set({
-        JoinCalls: "false",
-      })
-      .then(() => {
-        setCallRequests([])
-      });
-  }, [])
-
+ 
   const [cohostlist, setcohostlist] = useState([])
   const [cohsotData, setCohostData] = useState([
     {id: 1, value: null, isLocked: false, isMicOn: true},
@@ -321,114 +263,8 @@ const deleteFromArrary = () => {
       
 };
 
-  useEffect(() => {
-    // console.log("cohost92")
-    const onChildAdd = database()
-      .ref(`/cohostaudio/${channelName}`)
-      .on('child_added', snapshot => {
-      //{  snapshot.val() && bookSeat(snapshot.val())}
-        //setCohostData(prev => [...prev, snapshot.val()])
-        //console.log('cohost92', snapshot.val());
-        handleCohost(snapshot.val())
-      });
-    // Stop listening for updates when no longer required
-    return () => {
-      database().ref(`/cohostaudio/${channelName}`).off('child_added', onChildAdd)
-      database().ref(`/cohostaudio/${channelName}`).remove()
-      deleteCoHostNode()
-    };
-  }, [])
+ 
 
-  const handleCohost = (txt) => {
-    // console.log("cohost91", txt)
-    txt && setCoHost1ID(txt)
-    //{!coHost1Id ? setCoHost1ID(txt) : !coHost2Id ? setCoHost2ID(txt) : setCoHost3ID(txt)}
-  }
-
-  useEffect(() => {
-    // console.log("=================================>>>", coHost1Id, " ", cohsotData)
-
-    if(coHost1Id?.id)
-    {
-      console.log("cohsotdata", cohsotData, coHost1Id)
-      let counter = 0
-      setCohostData(cohsotData.map(item => {
-            if ((item?.value === null && !item?.isLocked) && counter === 0) {
-              counter = counter + 1
-              return {...item, value: 'book', name: coHost1Id?.nick_name, image: coHost1Id?.image, cohostID: coHost1Id?.id};
-            }
-            return item;
-          }));
-    }
-
-    if (cohostlist.indexOf({ coHost1Id }) !== -1) {
-      console.log(`${coHost1Id} is available in the array`);
-    } else {
-     
-     
-      console.log(`${coHost1Id} is not available in the array`);
-    }
-  }, [coHost1Id])
-
-  const coHostChildRemove = () => {
-    database()
-      .ref(`/cohostaudio/${channelName}`)
-      .on('child_removed', snapshot => {
-        //console.log('cohost00', snapshot.val());
-        removeCohost(snapshot.val()?.id)
-      });
-  }
-  const [itemRemove, setItemRemvoe] = useState()
-  function removeCohost(itemToRemove) {
-    setItemRemvoe(itemToRemove)
-  }
-
-  useEffect(() => {
-    let index = cohostlist.indexOf(itemRemove);
-    // console.log('removeItem', itemRemove, cohostlist, cohsotData.filter((item) => item?.id !== itemRemove))
-    // console.log("=================================>>>", cohsotData, " ", cohsotData.some((item) => item.id === itemRemove))
-    // console.log('removeItem', itemRemove, cohostlist, index, cohostlist?.filter((item) => item === itemRemove))
-    if (index !== -1) {
-      //console.log('removeItem2')
-      let newCohostList = [...cohostlist];
-      newCohostList.splice(index, 1);
-      setcohostlist(newCohostList);
-    
-    }
-
-    if(itemRemove)
-    {
-      console.log("cohsotdata", cohsotData, coHost1Id)
-      let counter = 0
-      setCohostData(cohsotData.map(item => {
-            if (parseInt(item?.cohostID) === parseInt(itemRemove)) {
-              counter = counter + 1
-              return {...item, value: null};
-            }
-            return item;
-          }));
-    }
-  }, [itemRemove])
-
-
-  const deleteCoHostNode = async () => {
-    await database().ref(`/cohostaudio`).remove();
-  }
-
-  const deleteMessageNode = async () => {
-    await database().ref(`/commentsaudio/${channelName}`).remove();
-  }
-
-  const checkfun = (val) => {
-    let messageDate = new Date(val?.date)
-
-    if (messageDate?.getTime() >= checkDate.getTime()) {
-      setMessages(prev => [...prev, val])
-      handleEndReached()
-      //console.log("testing ===> ")
-    }
-    //console.log("testing ===> ", messageDate, checkDate, messageDate?.getTime() >= checkDate.getTime())
-  }
 
   const firebaseFunc = (val) => {
     handleCohostList(val)
@@ -456,18 +292,6 @@ const deleteFromArrary = () => {
     // console.log("filtering", check)
   }
 
-  const changeCohostStatus = (id) => {
-
-    database()
-      .ref(`/channelsaudio/${channelName}/${id}`)
-      .update({
-        coHostID: parseInt(id),
-        status: parseInt(1),
-      })
-      .then(() => {
-      });
-
-  }
 
 
   const handleFireData = (val) => {
@@ -475,17 +299,6 @@ const deleteFromArrary = () => {
     //console.log("val12", Object.keys(val))
   }
 
-  const firebaseWrite = () => {
-    database()
-      .ref(`/channelsaudio/${channelName}/${tempData}`)
-      .set({
-        cohostID: tempData,
-        status: "0",
-      })
-      .then(() => {
-      });
-
-  }
 
   function showMessage(msg) {
     setMessage(msg);
@@ -495,91 +308,6 @@ const deleteFromArrary = () => {
   const [data, setData] = useState([])
 
 
-  const generateToken = async () => {
-    const paramsBody = {
-      channelName: channelName,
-      uid: parseInt(uid),
-      role: "RolePublisher",
-    };
-    try {
-      const res = await ApiCallToken({
-        params: userData.token,
-        paramsBody: paramsBody,
-        route: 'get-token',
-        verb: 'POST',
-      });
-      if (res?.token) {
-        join(res?.token)
-      }
-    } catch (error) {
-      console.log('Audiocallhost screen, generatetoken func', error);
-    }
-  }
-
-  const join = async (tok) => {
-    //  console.log("token from funct", tok )
-    // console.log("tok", t, "data", JSON.stringify(data))
-    if (tok) {
-      if (isJoined) {
-        return;
-      }
-      try {
-        agoraEngineRef.current?.setChannelProfile(
-          ChannelProfileType.ChannelProfileLiveBroadcasting,
-        );
-
-        if (isHost) {
-          agoraEngineRef.current?.startPreview();
-          // console.log("inhost", tok)
-          agoraEngineRef.current?.joinChannel(tok, channelName, parseInt(uid), {
-            clientRoleType: ClientRoleType.ClientRoleBroadcaster
-          });
-        } else {
-          //  console.log("hereeeeeeee")
-          agoraEngineRef.current?.joinChannel(tok, channelName, parseInt(uid), {
-            clientRoleType: ClientRoleType.ClientRoleAudience
-          });
-        }
-      } catch (e) {
-        console.log(e);
-      }
-    } else { console.log("no token", token) }
-  };
-  const leave = () => {
-    try {
-      agoraEngineRef.current?.leaveChannel();
-      setRemoteUid(0);
-      setIsJoined(false);
-      showMessage('You left the channel');
-    } catch (e) {
-      console.log(e);
-    }
-
-  };
-
-
-  const agoraEvents = {
-    onJoinChannelSuccess: () => {
-      showMessage('Successfully joined the channel ' + channelName);
-      setIsJoined(true);
-      console.log("joined channel")
-    },
-    onUserJoined: (_connection, Uid) => {
-      setRemoteUid(Uid);
-    },
-    onUserOffline: (_connection, Uid) => {
-      setRemoteUid(0);
-      console.log("user offline", Uid)
-    },
-    onLocalVideoStateChanged: (remoteUid, state) => {
-      console.log("remoteuid", remoteUid, "state", state)
-
-    },
-  }
-  const callBackMethod = () => {
-    const agoraEngine = agoraEngineRef.current;
-    agoraEngine.registerEventHandler(agoraEvents);
-  }
 
   const [heart, setHeart] = useState(0)
   const heartBeatInterval = async () => {
@@ -606,39 +334,16 @@ const deleteFromArrary = () => {
   }, [])
 
   useEffect(() => {
-    setGiftsDBToFirebase()
-    entryMessage()
-    addJoinCallToFirebase()
-    addToUserList()
-    firebaseFunc()
-    callBackMethod();
-    generateToken();
-    makeHostLiveStatusActive()
-    checkupdate()
-    onUserRemove()
-    coHostChildRemove()
-    checkGiftStatus()
+  
 
     // getUserData()
     // getUserListyByChannel()
     return () => {
-      console.log("cleaned up");
-      agoraEngineRef.current.unregisterEventHandler(agoraEvents)
-      deleteUserListNode();
-      database().ref().off();
-      makeHostLiveStatusInactive()
-      leave();
+    
     };
   }, []);
 
-  const checkGiftStatus = () => {
-    database()
-      .ref(`/giftsaudio/${channelName}`)
-      .on('child_added', snapshot => {
-        // console.log('gift95', snapshot.val());
-        receiveGiftFromFirebase(snapshot.val())
-      });
-  }
+ 
 
   const receiveGiftFromFirebase = (val) => {
     let messageDate = new Date(val?.date)
@@ -670,79 +375,6 @@ const deleteFromArrary = () => {
     }
   };
 
-  const makeHostLiveStatusInactive = async () => {
-    try {
-      const res = await ApiCallToken({
-        params: userData.token,
-        route: 'status-audio-disable',
-        verb: 'POST',
-        paramsBody: { id: userData?.user?.id }
-      });
-      //console.log('Updated makeHostLiveStatusInactive', res)
-    } catch (error) {
-      console.log('Audiocallhost screen, makeHostLiveStatusInactive func', error);
-    }
-  };
-
-  const addToUserList = async () => {
-    // console.log("userdata", userData?.user)
-    await database()
-      .ref(`/userlistaudio/${channelName}/${uid}`)
-      .set({
-        id: uid,
-        full_name: userUpdatedData?.nick_name,
-        image: userUpdatedData?.image,
-        sender_level: userUpdatedData?.sender_level,
-        reciever_level: userUpdatedData?.reciever_level,
-        reciever_level_image: userUpdatedData?.reciever_level_image,
-        sender_level_image: userUpdatedData?.sender_level_image,
-        status: "0",
-        json_image: frameData?.[0]?.json_image
-      })
-      
-  }
-
-  const checkupdate = () => {
-    // console.log("node3")
-    const onChildAdd = database()
-      .ref(`/userlistaudio/${channelName}`)
-      .on('child_added', snapshot => {
-        // console.log('addnode4 ', snapshot.val());
-        const newUser = snapshot.val();
-        // console.log("data", data)
-        if (!data.some(user => user.id === newUser.id)) {
-          setData(prev => [...prev, newUser])
-        }
-      });
-  }
-
-  const [tes, setTes] = useState(null)
-
-  const onUserRemove = () => {
-    // console.log("node6")
-    database()
-      .ref(`/userlistaudio/${channelName}`)
-      .on('child_removed', snapshot => {
-        // console.log('child_removed from userlist', snapshot.val());
-        setTes(snapshot.val()?.id)
-      });
-  }
-
-  // filtering data from user list when any user left the channel checking real time through database (tes) is the id that user left the channel we are getting real time user remove in tes
-  useEffect(() => {
-    // console.log("==============================00", callRequests, " ", callRequests?.filter((item) => parseInt(item?.coHostID) !== parseInt(tes)))
-    { (callRequests?.[0] && tes) && setCallRequests(callRequests?.filter((item) => parseInt(item?.coHostID) !== parseInt(tes))) }
-    { (tes != uid && data?.[0] && tes) && setData(data?.filter((item) => item?.id !== tes)) }
-    setTes(null)
-  }, [tes])
-
-
-  const deleteUserListNode = async () => {
-    await database()
-      .ref(`/userlistaudio/${channelName}`)
-      .remove()
-      
-  }
 
   const GiftBtns = [
     { id: 1, BtnTxt: 'Draw' },
@@ -764,16 +396,7 @@ const deleteFromArrary = () => {
 
 
   const onToggleSwitch1 = () => {
-    setswitch1(!switch1)
-    database()
-      .ref(`/channelsaudio/${channelName}`)
-      .update({
-        JoinCalls: !switch1 ? "true" : "false",
-      })
-      .then(() => {
-
-        setCallRequests([])
-      });
+   
 
   };
 
@@ -1231,7 +854,6 @@ const deleteFromArrary = () => {
   const [isMicOn, setIsMicOn] = useState(true)
   const handleMicButton = () => {
     setIsMicOn(!isMicOn)
-    { isMicOn ? agoraEngineRef.current.muteLocalAudioStream(true) : agoraEngineRef.current.muteLocalAudioStream(false) }
     //console.log('mic', isMicOn)
   }
   const [list, setList] = useState(false);
@@ -1330,7 +952,7 @@ const deleteFromArrary = () => {
                   </View>
                   <View style={[styles.txtbox, { marginLeft: 5 }]}>
                     <Text style={[styles.name, { wordWrap: 'break-word', width: 90 }]}>
-                      {userUpdatedData?.nick_name.substring(0, 7)} {userUpdatedData.length > 7 && "..."}
+                      {userUpdatedData?.nick_name.substring(0, 7)} {userUpdatedData?.length > 7 && "..."}
                       {/* {joiningUser} */}
                     </Text>
                     <Text style={styles.id}>BL {userData?.user?.id}</Text>
@@ -1546,7 +1168,6 @@ const deleteFromArrary = () => {
                 </TouchableOpacity> */}
                 <TouchableOpacity style={styles.icon1box} 
                   // onPress={() => handleButtonPress()} 
-                  onPress={() => msgRef.current.open()}
                   >
                   <MessageIcon
                     name="facebook-messenger"
@@ -1884,12 +1505,7 @@ const deleteFromArrary = () => {
           </View>
 
           <View>
-          <RbSheetComponent
-              view={<MessageSheet onCrossPress={() => msgRef.current.close()} />}
-              refUse={msgRef}
-              close={false}
-              height={'40%'}
-            />
+      
           </View>
           <View style={{ flex: 1 }}>
             <RBSheet

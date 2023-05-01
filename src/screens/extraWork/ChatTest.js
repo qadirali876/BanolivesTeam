@@ -12,7 +12,6 @@ const ChatTest = () => {
     const [messages, setMessages] = useState([]);
     const userData = useSelector(state => state.auth.userData);
     const route = useRoute().params;
-    console.log("routes", route)
     const { data,id,image,name } = route
     const [inputText, setInputText] = useState('');
     const navigation = useNavigation();
@@ -22,20 +21,20 @@ const ChatTest = () => {
          searchID() 
     }, []);
     useEffect(() => {
-        console.log("chatid", chat_id)
-        const unsubscribe = firestore().doc(`messages/${chat_id}`).onSnapshot(fetchMessages);
+        if(chat_id) {
+            firestore().doc(`messages/${chat_id}`).onSnapshot(fetchMessages);
+        }
        return () => {
-           unsubscribe();
+            firestore().doc(`messages/${chat_id}`).onSnapshot(fetchMessages);
        };
    }, [chat_id]);
 
     const searchID = async () => {
         try {
-           console.log("search id",id,userData?.user?.id)
           const res = await ApiCallToken({
             params: userData?.token,
             paramsBody: {
-              sender_id:id?.toString(),
+              sender_id: id?.toString(),
               recever_id: userData?.user?.id?.toString()
             },
             route: 'search/chat',
@@ -44,7 +43,6 @@ const ChatTest = () => {
           setGivenDataFromApi(res);
           if(res?.data?.[0]?.chat_id) {
             setChatId(res?.data?.[0]?.id)
-            console.log("check data search/caht api ", res, res?.data?.[0]?.chat_id)
           }
           else {
             friendRequestCome()
@@ -58,7 +56,6 @@ const ChatTest = () => {
     const friendRequestCome = async () => {
         const idcheck = userData?.user?.id.toString() + id.toString();
         try {
-           console.log("adding new chat to database ",id, idcheck)
           const res = await ApiCallToken({
             params: userData.token,
             paramsBody: {
@@ -73,7 +70,6 @@ const ChatTest = () => {
               setGivenDataFromApi(res);
               setChatId(res?.data?.[0]?.id)
           }
-          console.log("send/chat/request ", res)
         } catch (error) {
           console.log('ERROR IS Store Purchase ====>>>', error);
         }
@@ -88,23 +84,19 @@ const ChatTest = () => {
         try {
             const documentSnapshot = await firestore().doc(`messages/${chat_id}`).get();
             const data = documentSnapshot.data();
-            if (data) {
-                console.log("llllllllllllllllllllll")
+            if (data && chat_id) {
                 setMessages(data.messages);
             }
         } catch (error) {
             console.error(error);
         }
-    };
-
-   
+    };   
 
     const handleSend = async (sender) => {
         try {
           if(chat_id)
           {  
             const documentRef = firestore().doc(`messages/${chat_id}`);
-            console.log("meessage send", chat_id)
             const documentSnapshot = await documentRef.get();
             const data = documentSnapshot.data();
 
@@ -156,7 +148,7 @@ const ChatTest = () => {
                 </View>
              {chat_id ?   
                 <ScrollView contentContainerStyle={styles.messagesContainer}>
-                    {messages.map((message, index) => (
+                    {messages?.map((message, index) => (
                         <View
                             key={index}
                             style={[
